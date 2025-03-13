@@ -1,0 +1,39 @@
+body {
+    margin: 0;  
+}
+.parallax {
+    background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsYXh5JTIwd2FsbHBhcGVyfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.parallax-second-image {
+    background-image: url(https://www.everwallpaper.co.uk/cdn/shop/products/shutterstock_1933690058_b39fcde5-79da-4594-a523-401def16514e.jpg?v=1739776216);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.content p {
+    font-size: 10px;
+    color: white;
+}
+.black-block {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+ }
+ .black-block-content p{
+    font-size: 10px;
+    color: white;
+ }
