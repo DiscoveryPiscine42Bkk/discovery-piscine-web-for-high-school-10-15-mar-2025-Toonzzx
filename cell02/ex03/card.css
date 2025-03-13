@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    height: 465px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    content: url(https://preview.redd.it/m4r7p5k99yt81.png?auto=webp&s=82932526b051ab9a61b71f7f95afbe4a655c9ba5);
+    width: 250px;
+    height: 250px;
+}
+
+.profile-card h2 {
+    font-size: 25px
+}
+.profile-card h3 {
+    font-size: 15px;
+    color: grey;
+}
+.profile-card h4 {
+    font-size: 15px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+.social-media i{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+    padding-bottom: 10px;
+}
+.social-media i:hover {
+    color: hotpink;
+    transform: scale(1.4);
+}
+
+.contact-button{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
